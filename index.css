@@ -1,0 +1,29 @@
+#bg {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+#bg .B0, #bg .B1{
+  background: #777;
+}
+#a {
+  background: blue;
+  height: 100px;
+  width: 100px;
+}
+#bsod {
+  background: #00007E;
+  color: white;
+  font-family: monospace;
+  font-size: 24px;
+  white-space: pre-wrap;
+  position: fixed;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: none;
+}
